@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="719ff78b-c0a4-4245-a429-8ff4330355f8" name="Changes" comment="Infix to Postfix converter">
-      <change afterPath="$PROJECT_DIR$/src/TowerOfHanoi.java" afterDir="false" />
+    <list default="true" id="719ff78b-c0a4-4245-a429-8ff4330355f8" name="Changes" comment="Added Tower of Hanoi move calculator">
+      <change afterPath="$PROJECT_DIR$/src/StringReverseStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698813312044</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Tower of Hanoi move calculator">
+      <option name="closed" value="true" />
+      <created>1698813512879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698813512879</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added CircularQueue" />
     <MESSAGE value="Infix to Postfix converter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Infix to Postfix converter" />
+    <MESSAGE value="Added Tower of Hanoi move calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Tower of Hanoi move calculator" />
   </component>
 </project>
