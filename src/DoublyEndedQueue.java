@@ -137,14 +137,14 @@ public class DoublyEndedQueue {
             }
         }
     }
-    private static class Node {
-        int data;
-        Node next;
-        Node prev;
-        public Node(int data) {
-            this.data = data;
-            this.next = null;
-            this.prev = null;
-        }
+    //private static class Node {
+    //commented out node class because using public class from other files
+      //  int data;
+       // Node next;
+        //Node prev;
+        //public Node(int data) {
+          //  this.data = data;
+            //this.next = null;
+            //this.prev = null;
+        //}
     }
-}
