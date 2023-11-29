@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class CircularQueue {
 
-    class Node{
+    static class Node{
         int data;
         Node next;
 
@@ -27,13 +27,11 @@ public class CircularQueue {
 
         if (isEmpty()) {
             front = newNode;
-            rear = newNode;
-            newNode.next = front;
         } else {
             rear.next = newNode;
-            rear = newNode;
-            newNode.next = front;
         }
+        rear = newNode;
+        newNode.next = front;
 
         System.out.println("Enqueued: " + data);
     }

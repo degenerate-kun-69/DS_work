@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.Stack;
 public class ParenthesisCheck {
 }
@@ -31,7 +32,9 @@ class BalancedParentheses {
     }
 
     public static void main(String[] args) {
-        String str = "(a+b)*c)";
+        System.out.println("Enter expression:");
+        Scanner sc= new Scanner(System.in);
+        String str = sc.next();
         if (areParenthesesBalanced(str)) {
             System.out.println("Parentheses Balanced");
         } else {

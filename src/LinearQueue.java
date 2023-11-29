@@ -6,21 +6,21 @@ public class LinearQueue {
        int a= sc.nextInt();
         Queue q= new Queue(a);
         System.out.println("Initial queue: ");
-        q.display();
-        q.enqueue(10);
-        q.enqueue(20);
-        q.enqueue(30);
-        q.enqueue(40);
-        q.enqueue(50);
-        q.display();
+        Queue.display();
+        Queue.enqueue(10);
+        Queue.enqueue(20);
+        Queue.enqueue(30);
+        Queue.enqueue(40);
+        Queue.enqueue(50);
+        Queue.display();
         System.out.println("\n peeking :");
-        q.peek();
-        System.out.println("Dequeueing ");
-        q.dequeue();
+        Queue.peek();
+        System.out.println("DeQueueing ");
+        Queue.dequeue();
         System.out.println("Peeking after dequeue");
-        q.peek();
+        Queue.peek();
         System.out.println("Display queue again");
-        q.display();
+        Queue.display();
         System.out.println("\n\n Linked List queue: \n");
         LinkedListQueue queue = new LinkedListQueue();
         queue.enqueue(10);
@@ -32,7 +32,7 @@ public class LinearQueue {
         queue.displayFR();
         queue.display();
         queue.dequeue();
-        queue.peek();;
+        queue.peek();
         queue.displayFR();
 
 
@@ -40,7 +40,7 @@ public class LinearQueue {
 }
 class Queue{
     private static int front, rear, capacity;
-    private static int queue[];
+    private static int[] queue;
     Queue(int size){
         front = rear=0;
         capacity = size;
